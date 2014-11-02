@@ -1,0 +1,16 @@
+
+<div class="sd-wrap d-paper">
+  {% capture tagString %}{% for tag in site.tags %}{{ tag[0] }}{% unless forloop.last %}|{% endunless %}{% endfor %}{% endcapture %}
+  {% assign tags = tagString | split: '|' | sort: 'downcase' %}
+  <div class="tagcloud flex flex-row-wrap">
+    {% for tag in tags %}
+      {% assign number = site.tags[tag].size %}
+      {% assign slug = tag | replace: ' ', '_' %}
+      <span class="{% if number == 1 %}paper-btn xs{% elsif number <= 5 %}paper-btn sm{% elsif number <= 10 %}paper-btn md{% else %}paper-btn lg{% endif %}"><a href="/tags/?tag={{slug}}">{{ tag }}</a></span>
+    {% endfor %}
+  </div>
+</div>
+
+
+<a class="sd-nav" id="tags-opn-btn" title="tags"><i class="fa fa-tags"></i></a>
+<a class="sd-nav" id="arch-nav-btn" href="/archive/" title="archives"><i class="fa fa-archive"></i></a>
