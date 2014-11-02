@@ -5,9 +5,7 @@ tags: [Sass, Compass]
 permalink: spriting-with-compass
 ---
 
-### Spriting with Compass
-
-http://compass-style.org/help/tutorials/spriting/
+### [Spriting with Compass](http://compass-style.org/help/tutorials/spriting/)
 
 Imagine that in your project's image folder there are four icons:
 
