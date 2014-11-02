@@ -1,14 +1,16 @@
 ---
 layout: post
-title: CSS Media Queries
-tags: [CSS, media-queries]
-permalink: css-media-queries
+title: Sass Basics
+tags: [Sass]
+permalink: sass-basics
 ---
 
 [Orig][1]
 
 [1]: http://blog.templatemonster.com/2014/10/14/css-media-queries-for-all-devices-and-browsers-including-ie7-and-ie8/
      "CSS Media Queries for All Devices and Browsers (Including IE7 and IE8)"
+
+<!--more-->
 
 {% highlight css %}
 /* Smartphones (portrait and landscape) ----------- */
@@ -88,8 +90,6 @@ and (orientation : portrait) {
 /* STYLES GO HERE */
 }
 {% endhighlight %}
-
-<!--more-->
 
 ### Media Queries Support
 
