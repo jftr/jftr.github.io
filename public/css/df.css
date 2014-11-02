@@ -4,6 +4,7 @@ p.indent {
 	padding-left: 1em;
   border-left: 2px solid rgba(185,195,205,.8);
   font-style: italic;
+  font-weight: 300;
 }
 .option {
 
