@@ -9,10 +9,12 @@ permalink: spriting-with-compass
 
 Imagine that in your project's image folder there are four icons:
 
-*images/my-icons/new.png*<br>
-*images/my-icons/edit.png*<br>
-*images/my-icons/save.png*<br>
-*images/my-icons/delete.png*
+<p class="indent">
+images/my-icons/new.png<br>
+images/my-icons/edit.png<br>
+images/my-icons/save.png<br>
+images/my-icons/delete.png
+</p>
 
 Each is an icon that is 32px square.
 
