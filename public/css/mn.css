@@ -5,7 +5,7 @@
   margin: 0; border: 0; padding: 0;
 }
 * {
-	font-family: "pt-sans-caption", "Palatino Linotype", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", serif;
+	font-family: "adelle", "Palatino Linotype", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft Yahei", serif;
 }
 ::selection { background-color: #d5ffe6; }
 ::-moz-selection{ background-color: #d5ffe6; }
